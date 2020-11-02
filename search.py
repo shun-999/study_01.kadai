@@ -17,7 +17,7 @@ def search():
     else:
         print("{}は存在しませんでした".format(word))
         source.append(word)
-        print(source)
+    print(source)
 
 if __name__ == "__main__":
     search()
